@@ -1,2 +1,2 @@
 # social-sphere
-SocialSphere is a minimalist social media app where users can share their thoughts, ideas, and messages in real-time. Built with Flutter and Firebase!
+SocialSphere is a minimalist social media app where users can share their thoughts, ideas, and messages in real-time. Built with Flutter and Firebase, it features user authentication, real-time post updates, and a clean, intuitive interface. The app follows the BLoC architecture for state management, ensuring scalability and maintainability. Whether you're sharing a quick update or browsing through posts, SocialSphere keeps you connected effortlessly.
