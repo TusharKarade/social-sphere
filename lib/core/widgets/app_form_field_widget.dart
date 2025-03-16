@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class AppFormFieldWidget extends StatelessWidget {
-  final String hintText;
+  final String labelText;
   final Widget? leadingIcon;
   final VoidCallback? onIconTap;
   final TextEditingController? controller;
@@ -16,7 +16,7 @@ class AppFormFieldWidget extends StatelessWidget {
 
   const AppFormFieldWidget(
       {super.key,
-      required this.hintText,
+      required this.labelText,
       this.leadingIcon,
       this.onIconTap,
       this.controller,
@@ -48,7 +48,7 @@ class AppFormFieldWidget extends StatelessWidget {
           obscureText: obscureText,
           decoration: InputDecoration(
             isDense: true,
-            hintText: hintText,
+            labelText: labelText,
             prefixIcon: Padding(
               padding: EdgeInsets.symmetric(horizontal: 7.w, vertical: 0.h),
               child: leadingIcon,

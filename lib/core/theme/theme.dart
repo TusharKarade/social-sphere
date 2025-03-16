@@ -12,8 +12,17 @@ class AppTheme {
         borderRadius: BorderRadius.circular(6.r),
       );
   static final lightThemeMode = ThemeData.light().copyWith(
+      primaryColor: AppColors.appColor,
       scaffoldBackgroundColor: AppColors.white,
       inputDecorationTheme: InputDecorationTheme(
+        labelStyle: TextStyle(
+          color: AppColors.editTextHintColor,
+          fontSize: 14.sp,
+        ),
+        floatingLabelStyle: TextStyle(
+          color: AppColors.appColor,
+          fontSize: 14.sp,
+        ),
         enabledBorder: _textFormFieldBorder(),
         focusedBorder: _textFormFieldBorder(),
         errorBorder: _textFormFieldBorder(),
